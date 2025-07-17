@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>gradients</title>
+    <style>
+       body {
+                background-color: rgb(107, 131, 131);
+                font-family: Arial, sans-serif;
+                padding-top: 50px;
+            }
+        
+        .gradient1{
+            font-size:25px;
+            color:red;
+            height:55px;
+            width:150px;
+            border-color:blue;
+            border-radius:20px;
+        }
+        h4{
+          font-size: 34px;
+        }
+        .types{
+           font-size:25px;
+            color:rgb(0, 0, 255);
+        }
+        #grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow 10%, green 20%);
+}
+#grad2 {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(red, yellow, green);
+}
+#grad3 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(red, yellow, green, blue, black);
+}
+    </style>
+</head>
+<body>
+  <center>
+    <button class="gradient1" >Gradients</button>
+    <p style=font-size:25px;color:aqua>gradient are CSS elements of the image data type that show a transition between two or more colors.</p>
+<h4>Three types of Gradients</h4>
+  </center>  
+  <oi class="types">
+    <li>linear-gradient</li>
+    <li>radial-gradient</li>
+     <li>conical-gradient</li>
+  </oi>
+  <h1> Linear Gradient</h1>
+
+<div id="grad1"></div>
+
+<h1>Radial Gradient- Shapes</h1>
+
+<p><strong>Ellipse :</strong></p>
+<div id="grad2"></div>
+
+<h1>Conic Gradient - Five Colors</h1>
+
+<div id="grad3"></div>
+
+
+
+</body>
+</html>
